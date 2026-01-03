@@ -35,6 +35,28 @@ a
 {
     font-size: 22px;
 }
+#BeatAMoose, #BeatYourFears, #ApeInSpace
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.projectPic
+{
+    flex-basis: 20%;
+}
+.projectDesc
+{
+    flex-basis: 40%;
+    align-content: center;
+    text-align: left;
+    font-size: 22px;
+}
+#BeatAMoose:hover, #BeatYourFears:hover, #ApeInSpace:hover
+{
+    background-color:white;
+    opacity: 90%;
+}
 a:link
 {
     color: blue;
