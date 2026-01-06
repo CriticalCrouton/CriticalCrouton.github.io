@@ -1,0 +1,42 @@
+/*CSS for Cortland Lehnen Portfolio Projects*/
+html
+{
+    min-height: 100%;
+    background-image: linear-gradient(to bottom, rgb(167, 112, 255), rgb(95, 9, 255));
+}
+body
+{
+    width: 80%;
+    margin: 0 auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+header, main
+{
+    background-color: rgb(150, 150, 255);
+}
+header
+{
+    text-align: center;
+}
+main
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+h1, h2
+{
+    text-align: center;
+}
+p, ul
+{
+    background-color:rgb(111, 111, 212);
+    padding: 30px;
+}
+img
+{
+    background-color: rgb(111, 111, 212);
+    padding: 20px;
+}
