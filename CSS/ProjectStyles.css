@@ -19,6 +19,23 @@ header
 {
     text-align: center;
 }
+#buttons
+{
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7%;
+}
+#buttons a
+{
+    background-color:rgb(111, 111, 212);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
 main
 {
     display: grid;
@@ -39,4 +56,24 @@ img
 {
     background-color: rgb(111, 111, 212);
     padding: 20px;
+}
+a:link
+{
+    color: blue;
+}
+a:visited
+{
+    color: darkblue;
+}
+a:focus
+{
+    color: cyan;
+}
+a:hover
+{
+    color: cyan;
+}
+a:active
+{
+    color: #008bad;
 }
