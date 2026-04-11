@@ -35,7 +35,7 @@ a
 {
     font-size: 22px;
 }
-#BeatAMoose, #BeatYourFears, #ApeInSpace
+#BeatAMoose, #BeatYourFears, #ApeInSpace, #Ship, #Casino
 {
     display: flex;
     flex-direction: row;
@@ -59,11 +59,11 @@ a
 }
 a:link
 {
-    color: blue;
+    color: rgb(0, 49, 139);
 }
 a:visited
 {
-    color: darkblue;
+    color: rgb(0, 49, 139);
 }
 a:focus
 {
