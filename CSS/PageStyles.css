@@ -1,15 +1,85 @@
 /*CSS for Cortland Lehnen Portfolio Page*/
 
+
+
 html
 {
     min-height: 100%;
     background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(155, 155, 155));
 }
-body
+
+@media (max-width: 660px)
 {
-    width: 85%;
-    margin: 0 auto;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    body
+    {
+        width: 95%;
+        margin: 0 auto;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #projects
+    {
+        flex-basis: 50%;
+        padding: 20px;
+        box-sizing: border-box;
+        height: 300px;
+        overflow-y: scroll;
+        scrollbar-color: gray rgb(236, 236, 236);
+        box-shadow: 0px 0px 5px 10px rgb(155, 155, 155);
+    }
+    #thumbnail
+    {
+        width: 300px;
+        height: 200px;
+    }
+    main
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .projectPic
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .projectDesc
+    {
+        flex-basis: 40%;
+        align-content: center;
+        text-align: left;
+        font-size: 14px;
+    }
+}
+@media (min-width: 660px)
+{
+    body
+    {
+        width: 85%;
+        margin: 0 auto;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #projects
+    {
+        flex-basis: 60%;
+        padding: 20px;
+        box-sizing: border-box;
+        height: 600px;
+        overflow-y: auto;
+        scrollbar-color: gray rgb(236, 236, 236);
+        box-shadow: 0px 0px 5px 10px rgb(155, 155, 155);
+    }
+    main
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .projectDesc
+    {
+        flex-basis: 40%;
+        align-content: center;
+        text-align: left;
+        font-size: 22px;
+    }
 }
 #thumbnail
 {
@@ -18,12 +88,14 @@ body
 header h1
 {
     font-size: 52px;
+    text-align: center;
     padding-top: 10px;
     text-shadow: -3px 1px 3px rgb(97, 97, 97);
 }
 header h2
 {
     font-size: 24px;
+    text-align: center;
     padding-bottom: 10px;
 }
 header, main
@@ -31,25 +103,10 @@ header, main
     border-radius: 15px;
     text-align: center;
 }
-main
-{
-    display: flex;
-    flex-direction: row;
-}
 #content
 {
-    flex-basis: 40%;
+    flex-basis: 50%;
     padding: 30px;
-}
-#projects
-{
-    flex-basis: 60%;
-    padding: 20px;
-    box-sizing: border-box;
-    height: 600px;
-    overflow-y: auto;
-    scrollbar-color: gray rgb(236, 236, 236);
-    box-shadow: 0px 0px 5px 10px rgb(155, 155, 155);
 }
 #links
 {
@@ -93,16 +150,9 @@ a
     flex-basis: 20%;
     padding: 10px;
 }
-.projectDesc
-{
-    flex-basis: 40%;
-    align-content: center;
-    text-align: left;
-    font-size: 22px;
-}
 #BeatAMoose:hover, #BeatYourFears:hover, #ApeInSpace:hover, #Ship:hover, #Casino:hover
 {
     background-color:rgb(177, 177, 177);
     box-shadow: 0px 0px 3px 3px rgb(177, 177, 177);
     color: rgb(214, 14, 0);
-}
+}    
