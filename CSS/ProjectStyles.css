@@ -11,9 +11,9 @@ body
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
 }
-header, main
+main
 {
-    background-color: rgb(148, 148, 148);
+    box-shadow: 0px 0px 5px 10px rgb(148, 148, 148);
 }
 header
 {
@@ -39,10 +39,13 @@ header h1
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 8px;
+    text-decoration: none;
+    color: black;
 }
 #buttons a:hover
 {
-    background-color: rgb(97, 97, 97)
+    background-color: rgb(97, 97, 97);
+    color: rgb(255, 123, 0);
 }
 main
 {
@@ -59,31 +62,9 @@ h1, h2
 
 p, ul
 {
-    background-color: rgb(206, 206, 206);
-    padding: 30px;
+    padding: 20px;
 }
 img
 {
-    background-color: rgb(206, 206, 206);
-    padding: 20px;
-}
-a:link
-{
-    color: rgb(236, 106, 0);
-}
-a:visited
-{
-    color: rgb(139, 44, 0);
-}
-a:focus
-{
-    color: rgb(177, 12, 0);
-}
-a:hover
-{
-    color: rgb(177, 12, 0);
-}
-a:active
-{
-    color: #e66f00;
+    box-shadow: 0px 0px 5px 20px rgb(187, 187, 187);
 }

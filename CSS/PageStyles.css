@@ -11,23 +11,29 @@ body
     margin: 0 auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#thumbnail
+{
+    box-shadow: 0px 0px 3px 7px rgb(155, 155, 155);
+}
 header h1
 {
+    font-size: 52px;
     padding-top: 10px;
+    text-shadow: -3px 1px 3px rgb(97, 97, 97);
 }
 header h2
 {
+    font-size: 24px;
     padding-bottom: 10px;
 }
 header, main
 {
     border-radius: 15px;
-    background-color: rgb(148, 148, 148);
     text-align: center;
 }
 main
 {
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
 #content
@@ -39,12 +45,11 @@ main
 {
     flex-basis: 60%;
     padding: 20px;
-    border-radius: 5px;
-    border-color: rgb(167, 167, 167);
-    border-style: solid;
     box-sizing: border-box;
     height: 600px;
     overflow-y: auto;
+    scrollbar-color: gray rgb(236, 236, 236);
+    box-shadow: 0px 0px 5px 10px rgb(155, 155, 155);
 }
 #links
 {
@@ -61,10 +66,13 @@ main
     padding: 15px;
     border-radius: 10px;
     background-color: rgb(201, 201, 201);
+    text-decoration: none;
+    color: black;
 }
 .nav:hover
 {
-    background-color: rgb(97, 97, 97)
+    background-color:  rgb(97, 97, 97);
+    color: rgb(255, 123, 0);
 }
 a
 {
@@ -76,6 +84,9 @@ a
     flex-direction: row;
     justify-content: center;
     background-color: rgb(206, 206, 206);
+    box-shadow: 0px 0px 3px 3px rgb(206, 206, 206);
+    text-decoration: none;
+    color: black;
 }
 .projectPic
 {
@@ -91,25 +102,7 @@ a
 }
 #BeatAMoose:hover, #BeatYourFears:hover, #ApeInSpace:hover, #Ship:hover, #Casino:hover
 {
-    background-color:rgb(114, 114, 114);
-}
-a:link
-{
-    color: rgb(236, 106, 0);
-}
-a:visited
-{
-    color: rgb(139, 44, 0);
-}
-a:focus
-{
-    color: rgb(177, 12, 0);
-}
-a:hover
-{
-    color: rgb(177, 12, 0);
-}
-a:active
-{
-    color: #e66f00;
+    background-color:rgb(177, 177, 177);
+    box-shadow: 0px 0px 3px 3px rgb(177, 177, 177);
+    color: rgb(214, 14, 0);
 }
